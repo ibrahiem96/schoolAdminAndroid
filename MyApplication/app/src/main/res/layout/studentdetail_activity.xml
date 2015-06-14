@@ -1,0 +1,337 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    tools:context="com.example.ibrahiemmohammad.myapplication.StudentdetailActivityActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="@string/studentId"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtStudentId"
+             />
+
+        <TextView
+            android:text="@string/grade"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtGrade"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="@string/studentName"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtStudentName"
+            android:layout_span="3" />
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="@string/contact"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_column="0" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="@string/address1"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtAddress1"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="@string/address2"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtAddress2"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="@string/homePhone"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtPhoneHome"
+             />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="@string/cellPhone"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtPhoneCell"
+             />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="@string/family"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_column="0" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#df1009" />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text=""
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_column="0" />
+
+        <TextView
+            android:text="@string/father"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_column="1"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="@string/mother"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_column="2"
+            android:layout_weight="1"/>
+    </TableRow>
+
+
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="@string/name"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtFatherName"
+            android:layout_column="1"
+            android:layout_weight="1.5" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtMotherName"
+            android:layout_column="2"
+            android:layout_weight="1.5"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="@string/work"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtFatherWork"
+            android:layout_column="1"
+            android:layout_weight="1.5"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtMotherWork"
+            android:layout_column="2"
+            android:layout_weight="1.5" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="@string/workAddress1"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtFatherWorkAddress1"
+            android:layout_column="1"
+            android:layout_weight="1.5" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtMotherWorkAddress1"
+            android:layout_column="2"
+            android:layout_weight="1.5" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="@string/workAddress2"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtFatherWorkAddress2"
+            android:layout_column="1"
+            android:layout_weight="1.5" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtMotherWorkAddress2"
+            android:layout_column="2"
+            android:layout_weight="1.5"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="@string/workPhone"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtFatherWorkPhone"
+            android:layout_column="1"
+            android:layout_weight="1.5"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtMotherWorkPhone"
+            android:layout_column="2"
+            android:layout_weight="1.5" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="@string/annualIncome"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtFatherIncome"
+            android:layout_column="1"
+            android:layout_weight="1.5" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtMotherIncome"
+            android:layout_column="2"
+            android:layout_weight="1.5" />
+
+    </TableRow>
+
+</TableLayout>
+
+</ScrollView>

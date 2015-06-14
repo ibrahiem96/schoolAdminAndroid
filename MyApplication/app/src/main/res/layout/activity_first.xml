@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+       android:layout_width="wrap_content"
+       android:layout_height="0dp"
+       android:id="@+id/lvSearchOptions"
+       android:layout_weight="0.15" />
+
+    <SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/svStudents"
+        android:layout_weight="0.1" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvStudents"
+        android:layout_weight="0.75"  />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/registerButton"
+        android:layout_weight="0.05"
+        android:onClick="doRegistration"
+        android:clickable="false"
+        android:textColor="@android:color/darker_gray"
+        />
+
+
+</LinearLayout>
